@@ -1,1 +1,1 @@
--keep class org.lineageos.updater.ui.FlingBehavior { *; }
+-keep class com.pixelstar.updater.ui.FlingBehavior { *; }
