@@ -1,7 +1,7 @@
 import java.util.Properties
-import com.pixelstar.generatebp.GenerateBpPlugin
-import com.pixelstar.generatebp.GenerateBpPluginExtension
-import com.pixelstar.generatebp.models.Module
+import com.blaze.generatebp.GenerateBpPlugin
+import com.blaze.generatebp.GenerateBpPluginExtension
+import com.blaze.generatebp.models.Module
 
 plugins {
     id("com.android.application")
@@ -18,7 +18,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.pixelstar:gradle-generatebp:+")
+        classpath("com.blaze:gradle-generatebp:+")
     }
 }
 
@@ -33,7 +33,7 @@ android {
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.pixelstar.updater"
+        applicationId = "com.blaze.updater"
         minSdk = 30
         targetSdk = 33
         versionCode = 1
